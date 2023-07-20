@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>App Game</title>
+  <link rel="stylesheet" href="app.css">
+  <script async src="app.js"></script>
+</head>
+
+<body>
+
+    
+    <div id="display">
+        <div class="col text-center">
+        <div class="form">
+            <div class="m-3">
+                <label for="" class="form-label"><img src="diamond.png" width="40px" height="40px"/></label>
+                <input type="text" id="nome" class="form-control" placeholder="infome seu nome">
+            </div>
+            <div class="m-3">
+                <label for="" class="form-label">valor da aposta</label>
+                <select name="" id="valor-aposta" class="form-control text-center">
+                  <option value="R$10,00">R$10,00</option>
+                  <option value="R$20,00">R$20,00</option>
+                  <option value="R$30,00">R$30,00</option>
+                  <option value="R$40,00">R$40,00</option>
+                  <option value="R$50,00">R$50,00</option>
+                </select>
+            </div>
+            <div class="M-3">
+                <button class="btn" id="iniciar">INICIAR</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <header class="container">
+    <div class="row d-flex-inline py-2 align-items-center">
+      <div class="col-2 col-sm-3">
+        <img src="../user.png" alt="Imagem" class="round-image">
+      </div>
+      <div class="col-6 col-sm-6">
+        <div class="u-name">
+        </div>
+      </div>
+      <div class="col-4 sol-sm-3">
+        <div class="u-valor">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="container mt-2">
+        <div class="row py-2 text-center color-white">
+            <div class="col" id="u-text"></div>
+        </div>
+
+  <div class="row">
+    <div class="justify-content-center">
+
+              <div class="col d-flex flex-wrap justify-content-center" id="app">
+                
+              </div>
+              
+              
+             
+            
+      </div>
+  </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container-fluid">
+       <div class="row ">
+        <div class="col d-flex col-sm-12">
+             <div class="col-3 col-sm-3 d-flex text-end">
+                <span id="c-coin"></span>
+                <img src="coin.png" style="width: 55px; height:35px">
+             
+            </div>
+            <div class="col-6 col-sm-6 d-flex text-center">
+              <button class="btn btn-bonus">NOVO JOGO</button>
+            </div>
+            <div class="col-3 col-sm-3 d-flex text-end">
+                
+                <img src="diamond.png" style="width: 50px; height:35px">
+                <span id="c-diamond"></span>
+            </div>
+        </div>
+       </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  
+</body>
+</html>
